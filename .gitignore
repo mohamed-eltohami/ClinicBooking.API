@@ -1,0 +1,28 @@
+## .NET
+*.user
+*.suo
+.vs/
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet
+**/[Pp]ackages/*
+*.nupkg
+
+## Secrets
+appsettings.Development.json
+**/appsettings.*.json
+!**/appsettings.json
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Rider / VS Code
+.idea/
+.vscode/
